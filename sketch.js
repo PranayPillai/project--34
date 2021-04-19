@@ -28,7 +28,7 @@ function setup() {
  
   // create sprites here
   ground = new Ground(3000,750,3000,20);
-  rope = new Fly(this.polygon,{x : 100 , y : 100});
+  rope = new Fly(hero.body,{x : 100 , y : 100});
   hero = new Hero(50,200,20);
 
 }
